@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="start"
+    android:background="@color/colorWhite">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/nav_other_card"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@color/colorBlack">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/nav_other_pic"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@color/colorWhite"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="50dp" />
+
+                <TextView
+                    android:id="@+id/nav_other_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    android:text="你的名字"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/nav_other_tv"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="111"
+                android:background="@drawable/tv_bg"
+                android:gravity="center_vertical"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="111"
+                android:gravity="center_vertical"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="111"
+                android:gravity="center_vertical"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="111"
+                android:gravity="center_vertical"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="111"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent"/>
+
+    <RelativeLayout
+        android:id="@+id/fun"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorBlack">
+    </RelativeLayout>
+
+</LinearLayout>
